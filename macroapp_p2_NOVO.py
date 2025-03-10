@@ -147,7 +147,7 @@ def main():
         # Do primeiro PDF – questões sobre TER (Q3 e Q4)
         {
             "pergunta": "Na TER, um choque monetário não modifica de forma permanente a oferta real.",
-            "resposta_correta": "F",
+            "resposta_correta": "V",
             "justificativa": "Os choques monetários têm efeitos temporários, pois os agentes ajustam rapidamente suas expectativas."
         },
         {
@@ -171,7 +171,7 @@ def main():
             "justificativa": "A curva de Phillips é considerada vertical tanto no curto quanto no longo prazo na TER."
         },
         {
-            "pergunta": "O ciclo econômico na TER não se explica exclusivamente por choques monetários.",
+            "pergunta": "O ciclo econômico na TER se explica exclusivamente por choques monetários.",
             "resposta_correta": "F",
             "justificativa": "Choques reais, como tecnológicos, também são determinantes para o ciclo econômico."
         },
