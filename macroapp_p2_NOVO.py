@@ -428,6 +428,7 @@ def main():
                         box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; height: 250px;">
                 <h3 style="color: #F9FAFB;">📝 Conteúdo do Quiz</h3>
                 <ul style="margin-top: 15px;">
+                    <li>Kalecki</li>
                     <li>Teoria das Expectativas Racionais</li>
                     <li>Ciclos Reais de Negócios</li>
                     <li>Modelos Novo-Keynesianos</li>
@@ -455,9 +456,10 @@ def main():
                         box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; height: 520px;">
                 <h3 style="color: #F9FAFB;">📊 Estatísticas do Quiz</h3>
                 <div style="margin-top: 25px;">
-                    <p style="font-size: 16px;">Total de questões: <strong>42</strong></p>
+                    <p style="font-size: 16px;">Total de questões: <strong>49</strong></p>
                     <p style="font-size: 16px;">Questões por tópico:</p>
                     <ul>
+                        <li>Kalecki: 7 questões</li>
                         <li>Teoria das Expectativas Racionais: 16 questões</li>
                         <li>Ciclos Reais de Negócios: 7 questões</li>
                         <li>Modelos Novo-Keynesianos: 9 questões</li>
@@ -473,7 +475,7 @@ def main():
             "Kalecki",
             "E sua aproximação da crítica feita por Keynes aos neoclássicos",
             perguntas_kalecki,
-            "📊"
+            "🧐"
         )
 
 
