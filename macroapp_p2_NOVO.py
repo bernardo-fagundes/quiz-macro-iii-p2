@@ -281,8 +281,8 @@ def main():
         },
         {
             "pergunta": "Os efeitos da recessão são integralmente compensados somente quando os preços são totalmente flexíveis.",
-            "resposta_correta": "F",
-            "justificativa": "Mesmo com flexibilidade, podem persistir efeitos devido a ineficiências e atrasos de ajuste."
+            "resposta_correta": "V",
+            "justificativa": "Em modelos de equilíbrio geral com preços flexíveis, os choques que levam a recessões podem ser rapidamente ajustados pelo próprio mercado. No entanto, em economias com preços rígidos (como nos modelos keynesianos), os efeitos da recessão podem persistir, pois os preços e salários não se ajustam rapidamente, resultando em desemprego e capacidade ociosa."
         },
         {
             "pergunta": "No modelo de Mankiw, a rigidez dos preços é explicada pelos custos de cardápio (menu costs).",
@@ -301,7 +301,7 @@ def main():
         },
         {
             "pergunta": "No modelo de Mankiw, os custos de menu tornam ajustes frequentes de preços inviáveis, mesmo com pequenas mudanças na demanda.",
-            "resposta_correta": "F",
+            "resposta_correta": "V",
             "justificativa": "Custos de menu tornam o ajuste oneroso, levando as empresas a alterarem preços com menos frequência."
         },
         {
