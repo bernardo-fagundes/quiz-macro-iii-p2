@@ -238,8 +238,8 @@ def main():
         },
         {
             "pergunta": "Um choque de produtividade positivo temporário leva a um aumento do salário e, devido ao efeito substituição, a um acréscimo na oferta de trabalho.",
-            "resposta_correta": "F",
-            "justificativa": "Choques positivos tendem a aumentar o salário e a oferta de trabalho, não a reduzi-la."
+            "resposta_correta": "V",
+            "justificativa": "Quando ocorre um choque positivo de produtividade temporário, ele aumenta a eficiência do trabalho, elevando a produtividade marginal do trabalho. O efeito substituição prevalece sobre o efeito renda, levando os trabalhadores a ofertarem mais trabalho. Isso acontece porque o trabalho se torna relativamente mais atrativo em relação ao lazer, aumentando a oferta de trabalho."
         },
         {
             "pergunta": "Na Teoria dos Ciclos Reais, o ciclo econômico reflete a manutenção das condições de maximização dos agentes.",
