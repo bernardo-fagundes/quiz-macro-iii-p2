@@ -136,6 +136,7 @@ def main():
         menu = st.radio(
             "Selecione um tópico:",
             ["Página Inicial",
+             "Kalecki",
              "Teoria das Expectativas Racionais",
              "Ciclos Reais de Negócios",
              "Modelos Novo-Keynesianos",
@@ -227,6 +228,44 @@ def main():
             "pergunta": "Políticas econômicas não sistemáticas podem ter efeitos temporários sobre o produto e o emprego.",
             "resposta_correta": "V",
             "justificativa": "Políticas inesperadas podem surpreender os agentes e gerar efeitos transitórios antes do ajuste completo das expectativas."
+        }
+    ]
+
+    perguntas_kalecki = [
+        {
+            "pergunta": "Kalecki chegou a resultados muito próximos de Keynes, incluindo a rejeição da Lei de Say.",
+            "resposta_correta": "V",
+            "justificativa": "Tanto Kalecki quanto Keynes refutam a Lei de Say, pois enfatizam a primazia dos gastos sobre os lucros na determinação da atividade econômica."
+        },
+        {
+            "pergunta": "Para Kalecki, o preço de uma mercadoria é determinado pela interação entre oferta e demanda no mercado.",
+            "resposta_correta": "F",
+            "justificativa": "Kalecki, inspirado em Keynes e Marx, defende que os preços seguem uma lógica de mark-up, onde os empresários aplicam uma margem de lucro sobre os custos, e não pela interação direta de oferta e demanda."
+        },
+        {
+            "pergunta": "Kalecki contesta a Lei do Custo Marginal Crescente, argumentando que o custo marginal é sempre crescente à medida que a produção aumenta.",
+            "resposta_correta": "F",
+            "justificativa": "Kalecki argumenta que, enquanto a capacidade produtiva não for plenamente utilizada, o custo marginal será decrescente, tornando-se crescente apenas quando a produção atinge sua capacidade máxima."
+        },
+        {
+            "pergunta": "Na teoria de Kalecki, os lucros das empresas são determinados pelos gastos dos capitalistas e não o contrário.",
+            "resposta_correta": "V",
+            "justificativa": "Kalecki mostra que os gastos dos capitalistas, via investimento e consumo, determinam os lucros, refutando a visão neoclássica de que os lucros determinam os gastos."
+        },
+        {
+            "pergunta": "Kalecki adota a teoria neoclássica da taxa natural de juros como fator de equilíbrio da economia.",
+            "resposta_correta": "F",
+            "justificativa": "Kalecki rejeita a teoria da taxa natural de juros, argumentando que o equilíbrio entre poupança e investimento ocorre independentemente da taxa de juros, sendo determinado pelas variações da renda."
+        },
+        {
+            "pergunta": "A mecânica do multiplicador de Kalecki é idêntica à de Keynes, sem nenhuma diferença conceitual.",
+            "resposta_correta": "F",
+            "justificativa": "Embora semelhantes, o multiplicador de Kalecki difere de Keynes ao considerar o consumo dos capitalistas como fator determinante do emprego total, além de dar maior ênfase à distribuição de renda."
+        },
+        {
+            "pergunta": "Para Kalecki, o déficit orçamentário do governo pode aumentar os lucros dos capitalistas.",
+            "resposta_correta": "V",
+            "justificativa": "Kalecki argumenta que um aumento nos gastos do governo eleva os lucros dos capitalistas acima do nível determinado pelo investimento privado e consumo dos capitalistas."
         }
     ]
 
@@ -428,6 +467,15 @@ def main():
                 </div>
             </div>
             """, unsafe_allow_html=True)
+
+    elif menu == "Kalecki":
+        criar_secao(
+            "Kalecki",
+            "E sua aproximação da crítica feita por Keynes aos neoclássicos",
+            perguntas_kalecki,
+            "📊"
+        )
+
 
     elif menu == "Teoria das Expectativas Racionais":
         criar_secao(
